@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhoewi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> <img src="Jhoewi.png" alt="Tienda Glamour" class="logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="#acerca">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+<section id="inicio">
+    <div class="imagen-container">
+        <img id="imagen-temporada" src="newSeason.png" alt="Nueva Temporada">
+        <button id="btn-prev" class="btn-move"><i class="fas fa-chevron-left"></i></button>
+        <button id="btn-next" class="btn-move"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</section>
+
+    <section id="productos">
+        <h2>!Productos pensados para ti!</h2>
+        <h></h>
+        <div class="productos-grid">
+       
+            <div class="producto">
+                <img src="corrector.png" alt="Corrector">
+                <h3>Corrector Atenea</h3>
+                <p>$40.00 COP</p>
+          
+              <a href="indexProduct1.html" class="boton-comprar">Comprar</a>
+            </div>
+            
+          
+            <div class="producto">
+                <img src="paletaDeSombras.png" alt="Paleta de sombras">
+                <h3>Paleta de sombras Montoc</h3>
+                <p>$65.00 COP</p>
+         
+                <a href="indexProduct2.html" class="boton-comprar">Comprar</a>
+            </div>
+        
+             <div class="producto">
+                <img src="lipOil.png" alt="Lip Oil">
+                <h3>Lip oil Atenea</h3>
+                <p>$25.00 COP</p>
+       
+                <a href="indexProduct3.html" class="boton-comprar">Comprar</a>
+            </div>
+      
+            <div class="producto">
+                <img src="base.png" alt="Lip Oil">
+                <h3>Base Atenea</h3>
+                <p>$65.00 COP</p>
+  
+                <a href="indexProduct4.html" class="boton-comprar">Comprar</a>
+            </div>
+       
+             <div class="producto">
+                <img src="tinta.png" alt="Lip Oil">
+                <h3>Tinta de labios essence</h3>
+                <p>$25.00 COP</p>
+        
+                <a href="indexProduct5.html" class="boton-comprar">Comprar</a>
+            </div>
+       
+             <div class="producto">
+                <img src="pomada.png" alt="Lip Oil">
+                <h3>Pomada de cejas Montoc</h3>
+                <p>$26.00 COP</p>
+           
+                <a href="indexProduct6.html" class="boton-comprar">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="acerca">
+        <div class="contenedor-acerca">
+            <h2>¡Conócenos!</h2>
+            <p>Somos una tienda dedicada a ofrecer productos de alta calidad para lograr acabados perfectos. Creemos en el poder del maquillaje para empoderar a todas las personas.</p>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>¿Tienes alguna pregunta?</h2>
+        <form id="contact-form" action="#" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" disabled>Enviar</button>
+        </form>
+        <p>Síguenos en nuestras redes sociales:</p>
+        <section id="redes">
+            <ul>
+                <li><a href="#" class="icon-facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="icon-instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://wa.me/1234567890" class="icon-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a></li> <!-- Icono de WhatsApp -->
+            </ul>
+        </section>
+
+    <footer>
+        <p>© 2024 Jhoewi. Todos los derechos reservados.</p>
+    </footer>
+    <button id="btn-arriba">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>

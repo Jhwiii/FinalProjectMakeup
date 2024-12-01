@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lip oil Atenea</title>
+    <link rel="stylesheet" href="stylesForProducts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="Jhoewi.png" alt="Logo de la marca" class="logo">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="inicio" class="producto-detalle">
+   
+        <div class="producto-imagen">
+            <img src="lipOil.png" alt="LipOil">
+        </div>
+
+      
+        <div class="producto-info">
+            <h2>Lip Oil Atenea</h2>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="precio">$25,00</p>
+            <p class="descripcion">
+                El Lip Oil es un aceite labial que contiene Aloe, Aceite de Jojoba y Rosa Mosqueta; estos ingredientes acondicionan y suavizan tus labios dándole un efecto de brillo. Su textura es suave y no se pega entre tus labios.
+            <ul class="detalles">
+                <li> Labios humectados</li>
+                <li> Vegano.</li>
+            </ul>
+
+            <form class="opciones-compra">
+                <label for="tono">Selecciona un tono:</label>
+                <select id="tono">
+                    <option value="luce">SoftRed</option>
+                    <option value="luce">CandyPink</option>
+                </select>
+
+                <button 
+                class="btn-carrito"
+                data-id="3"
+                data-name="Lip Oil Atenea"
+                data-price="25"
+                data-image="lipOil.png"
+            >Añadir al carrito</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Jhoewi. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

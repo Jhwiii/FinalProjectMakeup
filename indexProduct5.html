@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinta de labios essence</title>
+    <link rel="stylesheet" href="stylesForProducts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>
+            <img src="Jhoewi.png" alt="Logo de la marca" class="logo">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="inicio" class="producto-detalle">
+        <!-- Imagen Principal del Producto -->
+        <div class="producto-imagen">
+            <img src="tinta.png" alt="Tinta">
+        </div>
+
+        <!-- Información del Producto -->
+        <div class="producto-info">
+            <h2>Tinta essence</h2>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="precio">$25,000</p>
+            <p class="descripcion">
+                El tinte hidratante TINTED kiss aporta a los labios un toque de color con un acabado de larga duración y de aspecto natural. La textura ligera con una cobertura suave proporciona hidratación y una sensación agradablemente ligera en los labios.
+            <ul class="detalles">
+                <li> Hidratante.</li>
+            </ul>
+
+            <!-- Selección de opciones -->
+            <form class="opciones-compra">
+                <label for="tono">Selecciona un tono:</label>
+                <select id="tono">
+                    <option value="luce">Cherry On Top</option>
+                    <option value="luce"> Coral Colada</option>
+                </select>
+
+                <button 
+                class="btn-carrito"
+                data-id="5"
+                data-name="Tinta Essence"
+                data-price="25"
+                data-image="tinta.png"
+            >Añadir al carrito</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jhoewi. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

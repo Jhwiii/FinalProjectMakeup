@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Atenea</title>
+    <link rel="stylesheet" href="stylesForProducts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   
+    <header>
+        <h1>
+            <img src="Jhoewi.png" alt="Logo de la marca" class="logo">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <section id="inicio" class="producto-detalle">
+       
+        <div class="producto-imagen">
+            <img src="base.png" alt="base">
+        </div>
+
+     
+        <div class="producto-info">
+            <h2>Base Atenea</h2>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="precio">$65,900</p>
+            <p class="descripcion">
+                ¡Descubre el secreto para una piel luminosa! La base de maquillaje líquida 1ST. Scene viene en 9 tonos, es de acabado luminoso y aspecto natural; su textura es fluida lo que permite construirla y tener un control de su cobertura. Esta base es ideal pra un día largo de trabajo o una noche especial.
+            <ul class="detalles">
+                <li> Minimiza poros.</li>
+                <li> Larga duración.</li>
+                <li> Cobertura es media alta.</li>
+            </ul>
+
+            <form class="opciones-compra">
+                <label for="tono">Selecciona un tono:</label>
+                <select id="tono">
+                    <option value="luce">Almond</option>
+                    <option value="luce">Temple</option>
+                </select>
+
+                <button 
+                class="btn-carrito"
+                data-id="4"
+                data-name="Base Atenea"
+                data-price="65, 9"
+                data-image="base.png"
+            >Añadir al carrito</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jhoewi. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

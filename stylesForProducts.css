@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex; /* Flexbox para alinear elementos */
+    align-items: center; /* Centra verticalmente el logo y los botones */
+    justify-content: space-between; /* Logo a la izquierda, botones a la derecha */
+    border-top: 30px solid #740938; /* Línea fucsia debajo */
+    background-color: rgb(246, 243, 243); /* Fondo blanco */
+    font-family: 'Tahoma';
+    font-size: 12px;
+
+}
+
+/* Estilo exclusivo para la imagen del logo */
+.logo {
+    height: 50px; /* Ajusta el tamaño del logo */
+    width: auto; /* Mantén proporciones */
+}
+body {
+    font-family: 'Tahoma';
+    color: rgb(34, 33, 33); 
+    background-color: #f1eeee;
+
+}
+/* Navegación (menú) */
+nav ul {
+    list-style: none; /* Elimina puntos de lista */
+    display: flex; /* Menú horizontal */
+    gap: 15px; /* Espacio entre botones */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: black; /* Color del texto */
+   /* Texto en negrita */
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav ul li a:hover {
+    color:#AF1740; /* Fondo fucsia al pasar el mouse */
+
+}
+
+/* Sección Principal */
+.producto-detalle {
+    display: flex;
+    padding: 80px 20px 20px 20px; /* Agregar espacio por el header fijo */
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.producto-imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.producto-info {
+    max-width: 600px;
+}
+
+.producto-info h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.precio {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #AF1740; /* Color del precio similar al naranja */
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.detalles {
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.detalles li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-carrito{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color:#AF1740;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-carrito:hover {
+    background-color: #AF1740;
+}
+
+/* Sección Acerca de */
+#acerca {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#acerca h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#acerca p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Sección Contacto */
+#contacto {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+#contacto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contacto input, #contacto textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+#contacto button {
+    padding: 12px 20px;
+    background-color: #ff8da1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contacto button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    background-color: #f5f4f4; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    width: 100%; /* Ajusta el ancho del contenedor */
+}
+/* Animación de anuncio */
+#anuncio {
+    background-color: #e67e22;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
+
+#anuncio.show {
+    display: block;
+}
+
+#anuncio button {
+    background-color: #fff;
+    color: #e67e22;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#anuncio button:hover {
+    background-color: #f39c12;
+}

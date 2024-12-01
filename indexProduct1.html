@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrector Atenea</title>
+    <link rel="stylesheet" href="stylesForProducts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>
+            <img src="Jhoewi.png" alt="Logo de la marca" class="logo">
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="inicio" class="producto-detalle">
+        <!-- Imagen Principal del Producto -->
+        <div class="producto-imagen">
+            <img src="corrector.png" alt="Corrector">
+        </div>
+
+        <!-- Información del Producto -->
+        <div class="producto-info">
+            <h2>Rubor Líquido Serum Blush</h2>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="precio">$40,900</p>
+            <p class="descripcion">
+                El corrector 1st Scene es de alta cobertura y te ayuda a camuflar tus ojeras, además mantiene esa zona hidratada; Ideal para piel normal, seca o madura, es de acabado luminoso que proporciona un máximo cubrimiento de imperfecciones y manchas . Su fórmula contiene cafeína y ácido hialurónico que ayuda a desinflamar la zona. Viene en 6 tonos y es de larga duración.
+            <ul class="detalles">
+                <li> Hidrata y da un acabado natural.</li>
+                <li> Fórmula ligera, fácil de aplicar.</li>
+                <li> Ideal para todo tipo de piel.</li>
+            </ul>
+
+            <!-- Selección de opciones -->
+            <form class="opciones-compra">
+                <label for="tono">Selecciona un tono:</label>
+                <select id="tono">
+                    <option value="luce">Beige</option>
+                    <option value="rosa">Cinnamon</option>
+                    <option value="coral">Mocca</option>
+                </select>
+
+                <button 
+                class="btn-carrito"
+                data-id="1"
+                data-name="Corrector Atenea"
+                data-price="40"
+                data-image="corrector.png"
+            >Añadir al carrito</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jhoewi. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
